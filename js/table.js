@@ -32,7 +32,19 @@ function math() {
 			document.getElementById("error").innerHTML = "Invalid Input! Please try entering a number";
 			throw new Error("Invalid Input");
 		}
-
+	
+	//This ensures that you cant put in the variables wrong, the larger variable will always be x2/y2 respectively
+	if(x1>x2){
+		x1 = x1 + x2;
+		x2 = x1 - x2;
+		x1 = x1 - x2;
+	}
+	if(y1>y2){
+		y1 = y1 + y2;
+		y2 = y1 - y2;
+		y1 = y1 - y2;
+	}
+	
 	/*This here is a solution to the table acting strange.  The first column and row of multiplication
 	would just disappear. subtracing 1 from each means the missing row and column appear and function
 	normally
