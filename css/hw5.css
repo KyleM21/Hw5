@@ -1,0 +1,11 @@
+body{
+background: rgb(175,255,249);
+background: linear-gradient(90deg, rgba(175,255,249,1) 0%, rgba(255,219,169,1) 50%, rgba(175,255,249,1) 100%);
+}
+h2{	text-align: center;
+	font-family: verdana;
+	
+}
+#submitbutton{
+	margin: 0px 0px 10px 0px;
+}
