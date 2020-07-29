@@ -1,3 +1,10 @@
+/*	File:  table.js
+	Name: Kyle Marcoux
+	Email: kyle_marcoux@student.uml.edu
+	Umass Lowell 91.61 GUI Programming 1
+	Created 7/25/20
+	This javascript will clear the old table, check for errors, and build the new table
+*/
 function math() {
 	
 	//This clears the old table body and makes room for the new one
