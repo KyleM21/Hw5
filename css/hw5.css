@@ -1,3 +1,10 @@
+/*	File:  hw5.css
+	Name: Kyle Marcoux
+	Email: kyle_marcoux@student.uml.edu
+	Umass Lowell 91.61 GUI Programming 1
+	Created 7/25/20
+	This is a basic css file with a background, font change, and a margin for the submit button
+*/
 body{
 background: rgb(175,255,249);
 background: linear-gradient(90deg, rgba(175,255,249,1) 0%, rgba(255,219,169,1) 50%, rgba(175,255,249,1) 100%);
