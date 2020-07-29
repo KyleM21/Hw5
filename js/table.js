@@ -101,3 +101,4 @@ function math() {
 	$("#rTable").append(temp);
 }
 	
+	
