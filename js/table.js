@@ -35,14 +35,12 @@ function math() {
 	
 	//This ensures that you cant put in the variables wrong, the larger variable will always be x2/y2 respectively
 	if(x1>x2){
-		x1 = x1 + x2;
-		x2 = x1 - x2;
-		x1 = x1 - x2;
+		document.getElementById("error").innerHTML = "Invalid Input! Please switch your x values";
+		throw new Error("Invalid Input");
 	}
 	if(y1>y2){
-		y1 = y1 + y2;
-		y2 = y1 - y2;
-		y1 = y1 - y2;
+		document.getElementById("error").innerHTML = "Invalid Input! Please switch your y values";
+		throw new Error("Invalid Input");
 	}
 	
 	/*This here is a solution to the table acting strange.  The first column and row of multiplication
